@@ -37,15 +37,15 @@ public class Main {
             }
         }
         GenericStack<Integer> GS2 = new GenericStack<Integer>();
-        GS1.push(1);
-        GS1.push(3);
-        GS1.push(5);
+        GS2.push(1);
+        GS2.push(3);
+        GS2.push(5);
         while (true) {
-            Integer i = GS2.pop();
-            if (i == null) {
+            Integer I = GS2.pop();
+            if (I == null) {
                 break;
             } else {
-                System.out.println(i);
+                System.out.println(I);
             }
         }
     }
